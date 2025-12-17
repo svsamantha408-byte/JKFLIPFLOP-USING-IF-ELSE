@@ -43,6 +43,7 @@ By using three variable K-Map, we can get the simplified expression for next sta
 The maximum possible groupings of adjacent ones are already shown in the figure. Therefore, the simplified expression for next state Qt+1t+1 is Q(t+1)=JQ(t)′+K′Q(t)Q(t+1)=JQ(t)′+K′Q(t)
 
 **Procedure**
+```
 Create a new project in Quartus and add a new Verilog file containing the JK flip-flop code.
 
 Save the file, include it in the project, and compile the design.
@@ -58,7 +59,7 @@ Save the waveform file and start functional simulation.
 Observe the outputs q and qbar and verify correct JK flip-flop behavior based on the input combinations.
 
 If you need, I can also give short theory or a brief result.
-
+```
 **PROGRAM**
 ```
 module ex5(j,k,clk,q,qbar);
@@ -77,7 +78,8 @@ qbar<=~q;
 end
 endmodule
 ```
-. Developed by: Samantha Shree Sv RegisterNumber:25017585
+.Developed by: Samantha Shree SV
+RegisterNumber:25017585
 
 
 **RTL LOGIC FOR FLIPFLOPS**
