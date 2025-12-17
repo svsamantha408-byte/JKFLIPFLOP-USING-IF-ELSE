@@ -60,7 +60,7 @@ Observe the outputs q and qbar and verify correct JK flip-flop behavior based on
 If you need, I can also give short theory or a brief result.
 
 **PROGRAM**
-
+```
 module ex5(j,k,clk,q,qbar);
 input j,k,clk;
 output reg q,qbar;
@@ -76,7 +76,7 @@ q<=(j&~q)|(~k&q);
 qbar<=~q;
 end
 endmodule
-
+```
 . Developed by: Samantha Shree Sv RegisterNumber:25017585
 
 
